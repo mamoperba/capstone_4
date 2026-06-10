@@ -166,7 +166,7 @@ CLASS_COLORS_HEX = {
 # LOAD MODEL
 # ══════════════════════════════════════════════════════════════════════════════
 
-@st.cache_resource
+
 MODEL_PATH    = "construction_safety_best.pt"
 
 # ── Konfigurasi Google Drive untuk auto-download model ────────────────────────
@@ -176,9 +176,10 @@ MODEL_PATH    = "construction_safety_best.pt"
 # 3. Copy FILE_ID dari URL:
 #    https://drive.google.com/file/d/FILE_ID_DISINI/view
 # 4. Paste FILE_ID di bawah ini
-GDRIVE_FILE_ID = "GANTI_DENGAN_FILE_ID_DARI_GOOGLE_DRIVE"
 
 
+GDRIVE_FILE_ID = "1N5zRDf9CU1VowLwsl3ZJg55MxcIx8kgh"
+@st.cache_resource
 def download_model_from_gdrive(file_id: str, dest_path: str) -> bool:
     """
     Download model .pt dari Google Drive menggunakan gdown.
