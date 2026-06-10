@@ -1,13 +1,1 @@
-# Core
-streamlit>=1.35.0,<2.0.0
-# CV2 — pin versi yang terbukti support Python 3.11 di Streamlit Cloud
-opencv-python-headless==4.9.0.80
-# AI/ML
-ultralytics==8.2.0
-# Utils
-Pillow>=10.0.0,<11.0.0
-numpy>=1.24.0,<2.0.0
-pandas>=2.0.0,<3.0.0
-PyYAML>=6.0
-matplotlib>=3.7.0,<4.0.0
-gdown>=4.7.1
+
